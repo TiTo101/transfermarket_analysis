@@ -3,7 +3,6 @@ Using data from transfermarkt.de to predict transfer values and alayze the trans
 ![](./assets/expenditure_over_time.png)
 
 Example output:
-'''html
 <!DOCTYPE html>
 <html class="no-js" lang="de"> <!--<![endif]-->
 <head>
@@ -438,6 +437,3 @@ Example output:
 
 </body>
 </html>
-
-
-'''
