@@ -2,7 +2,6 @@ import re
 import time
 import random
 import os
-import tqdm
 import pathlib
 import requests
 import pandas as pd
@@ -673,7 +672,7 @@ def get_player_stats(df):
                 for link in links:
                     if link is not None:
                         competition = re.search(
-                            '\/*wettbewerb\/([a-zA-Z0-9]+)*', link.get("href"))[1]
+                            r'\/*wettbewerb\/([a-zA-Z0-9]+)*', link.get("href"))[1]
                         if competition not in competitions:
                             competitions.append(competition)
             stats = [competitions[0]]
