@@ -1,4 +1,4 @@
-import requests, re, time, random, os, glob, tqdm, pathlib
+import requests, re, time, random, os, tqdm, pathlib
 import pandas as pd
 import numpy as np
 from bs4 import BeautifulSoup
