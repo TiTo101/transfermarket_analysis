@@ -2,6 +2,6 @@ pandas
 numpy
 seaborn
 scikit-learn
-bs4
+beautifulsoup4
 requests
 tqdm
