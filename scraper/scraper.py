@@ -1,10 +1,10 @@
-import requests
 import re
 import time
 import random
 import os
 import tqdm
 import pathlib
+import requests
 import pandas as pd
 import numpy as np
 from bs4 import BeautifulSoup
