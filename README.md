@@ -14,6 +14,3 @@ The scraping folder contains:
 
 ## analysis
 In depth analysis of the German transfer market over time and predicting transfer fees, using the data from the scraper
-
-### Example predictions for 2019:
-![](./assets/results_2019.png)

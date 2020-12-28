@@ -5,7 +5,6 @@ presentation
 project_planning
 results
 counting_lines.py
-*.ipynb
 
 # General
 .DS_Store
